@@ -3,7 +3,7 @@ body{
 /*	background: url('https://25.media.tumblr.com/a408ad9af259cf827ed4599d60bcb0a9/tumblr_myebwtELvb1st5lhmo1_1280.jpg')
    no-repeat fixed center ;*/
 
-	background: #000;
+	background: #F8EFED;
     color: #ddd4d4;
     padding-top: 12px;
     line-height: 2;
@@ -14,7 +14,7 @@ body{
     left: 0;
     width: 1000%;
     height: 1000%;
-      background: url('5') rgba(25,25,25,0.3);
+/*       background: url('5') rgba(25,25,25,0.3); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
