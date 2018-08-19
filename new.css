@@ -1,7 +1,7 @@
-
-body{
-/*	background: url('https://25.media.tumblr.com/a408ad9af259cf827ed4599d60bcb0a9/tumblr_myebwtELvb1st5lhmo1_1280.jpg')
-   no-repeat fixed center ;*/
+	
+/* body{
+	background: url('https://25.media.tumblr.com/a408ad9af259cf827ed4599d60bcb0a9/tumblr_myebwtELvb1st5lhmo1_1280.jpg')
+   no-repeat fixed center ;
 
 	background: #F8EFED;
     color: #ddd4d4;
@@ -14,12 +14,96 @@ body{
     left: 0;
     width: 1000%;
     height: 1000%;
-/*       background: url('5') rgba(25,25,25,0.3); */
+      background: url('5') rgba(25,25,25,0.3);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     opacity: 0.3;
     
+} */
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-top: 20%;
+    
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
 }
 
 h1{
@@ -34,18 +118,19 @@ h1{
 
 .mi {
 	font-weight: 700;
-	font-size: 5em;
-  text-shadow: 0px 3px 3px red,
-         0px 4px 3px orange;
+	font-size: 6em;
+  
  }
 #kl{
 	width: 500px;
     border-top: 1.5px solid #f8f8f8;
-    border-bottom: 1.5px solid rgb(167,249,32);
+  height: 12px;
   
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 body {
   -webkit-perspective: 1000;
           perspective: 1000;
@@ -87,16 +172,16 @@ i {
 
 #flip-circle i{
   position: absolute;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   line-height: 45px;
   font-size: 2em;
   display: block;
   width: 100%;
   height: 100%;
-  text-align: center;
+  /* text-align: center; */
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  color: black;
+  color: white;
 
   }
 #flip-circle i.fa-instagram{
@@ -149,4 +234,7 @@ i {
 
 #flip-circle i{
   border-radius: 30%;
+}
+#ano{
+  color: #fff;
 }
